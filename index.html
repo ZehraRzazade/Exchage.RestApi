@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="divs">
+        <header>
+            <div class="divOne">
+                <img class="image" src="pictures/pictureOne.svg">
+                <ul class="menu">
+                    <li class="liTwo">БАНК</li>
+                    <li>БИЗНЕС</li>
+                    <li>ИНВЕСТИЦИИ</li>
+                    <li>СТРАХОВАНИЕ</li>
+                    <li>МОБАЙЛ</li>
+                    <li>ПУТЕШЕСТВИЯ</li>
+                    <li class="liOne">РАЗВЛЕЧЕНИЯ</li>
+
+                </ul>
+                <div class="divTwo">
+                    <p class="text">ВОЙТИ</p>
+
+                </div>
+        </header>
+
+        <body>
+            <h1 class="title">Конвертер валют онлайн</h1>
+            <div class="boxes">
+                <div class="divThree">
+                    <div class="divTextOne">
+                        <p>У меня есть </p>
+                    </div>
+                    <div class="btn-group1">
+                        <button id="btn-groupOne" class="purple">RUB</button>
+                        <button id="btn-groupOne">USD</button>
+                        <button id="btn-groupOne">EUR</button>
+                        <button id="btn-groupOne">GBP</button>
+                    </div>
+
+
+                </div>
+                <form>
+                    <input id="buttonOne" class="buttonOne" name="to">
+                    <div class="textDiv">
+                        <p class="textValyuta">1 RUB = 0.0135 USD</p>
+                    </div>
+
+                </form>
+
+            </div>
+            <div class="divFour">
+                <div class="divText">
+                    <p>Хочу приобрести </p>
+                </div>
+                <div class="btn-groupTwo">
+                    <button class="buttonTwo" >RUB</button>
+                    <button class="buttonTwo purple" >USD</button>
+                    <button class="buttonTwo">EUR</button>
+                    <button class="buttonTwo">GBP</button>
+                </div>
+
+            </div>
+            <input id="buttonThree" class="buttonThree"  value="" readonly name="from">
+            <div class="textDivOne">
+                <p class="textOne">1 USD = 73.8896 RUB</p>
+            </div>
+    </div>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="currency.js"></script>
+    <script src="app.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
